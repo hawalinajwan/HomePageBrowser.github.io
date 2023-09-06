@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  bac
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 3px solid #444;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  padding: 10px;
+  background: #444;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 15%;
+}
+
+.right {
+  width: 10%;
+}
+
+.middle {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dot {
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #2a2424;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+input[type=text] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: #555;
+  margin-top: 0px;
+  height: 25px;
+  color: #fff;
+  padding: 5px;
+}
+
+.bar {
+  width: 17px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+  display: block;
+}
+
+.content {
+  padding: 20px;
+  background-color: #111;
+}
+
+.content-bottom {
+  padding: 100px;
+  background-color: #111;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+}
+
+.content-top {
+  padding: 100px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.search-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+button {
+  background-color: #969da5;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+button i {
+  color: #fff;
+}
+
+
+.typewriter {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  overflow: hidden;
+  border-right: 3px solid #333;
+  white-space: nowrap;
+  letter-spacing: 4px;
+}
+
+.typewriter::after {
+  content: '|';
+  animation: blink-caret 0.75s infinite;
+}
+
+@keyframes blink-caret {
+  50% {
+    opacity: 0;
+  }
+}
+
+.clock-calendar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clock,
+.calendar {
+  padding-top: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.content-section {
+  text-align: center;
+
+}
+
+.content-section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content-section p {
+  font-size: 16px;
+  color: #777;
+}
+
+.shortcuts-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.shortcuts-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shortcuts {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.shortcuts li {
+  margin: 0 10px;
+}
+
+.shortcut-button {
+  text-align: center;
+}
+
+.shortcut-button1 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1FA463;
+}
+
+.shortcut-button2 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+
+.shortcut-button3 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #E1306C;
+}
+
+.shortcut-button4 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #5eb4ff;
+}
+
+.shortcut-button5 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #00A67E;
+}
+
+.shortcut-button6 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #f7d439;
+}
+
+.shortcut-button7 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #d3b21f;
+}
+
+.shortcut-button8 i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #d96900;
+}
+
+.shortcut-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
