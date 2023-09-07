@@ -294,3 +294,28 @@ button i {
   font-weight: bold;
   color: #ffffff;
 }
+
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 10px;
+  }
+
+  .row {
+    padding: 10px;
+    display: block;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .content-bottom,
+  .content-top {
+    padding: 50px;
+  }
+}
